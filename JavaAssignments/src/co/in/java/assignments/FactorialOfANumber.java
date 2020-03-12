@@ -10,10 +10,10 @@ public class FactorialOfANumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number to find the Factorial: ");
 		int num = sc.nextInt();
-		int fact = 1;
+		int product = 1;
 		for(int i=1;i<=num;i++)
 		{
-			fact = fact*i;	
+			product = product*i;	
 		}
 		
 		System.out.println("Factorial of a number is: "+fact);
