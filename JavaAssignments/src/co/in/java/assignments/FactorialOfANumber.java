@@ -16,7 +16,7 @@ public class FactorialOfANumber {
 			product = product*i;	
 		}
 		
-		System.out.println("Factorial of a number is: "+fact);
+		System.out.println("Factorial of a number is: "+product);
 	}
 
 }
