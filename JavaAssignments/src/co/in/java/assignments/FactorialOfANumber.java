@@ -11,9 +11,9 @@ public class FactorialOfANumber {
 		System.out.println("Enter the Number to find the Factorial: ");
 		int num = sc.nextInt();
 		int fact = 1;
-		for(int j=1;j<=num;j++)
+		for(int i=1;i<=num;i++)
 		{
-			fact = fact*j;	
+			fact = fact*i;	
 		}
 		
 		System.out.println("Factorial of a number is: "+fact);
