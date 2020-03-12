@@ -9,9 +9,9 @@ public class FactorialOfANumber {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number to find the Factorial: ");
-		int num = sc.nextInt();
+		int number = sc.nextInt();
 		int product = 1;
-		for(int i=1;i<=num;i++)
+		for(int i=1;i<=number;i++)
 		{
 			product = product*i;	
 		}
